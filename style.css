@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 70vw;
+
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80vh;
+}
+
+.formContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80vh;
+}
+
+
+
+/* left part--------------------------------- */
+.formContentLeft {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    height: 50vh;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formInput input,
+#selectField {
+    height: 61px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#textarea {
+    font-size: 15px;
+}
+
+.formInput label {
+    margin: 20px 0px 0px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+/* Right part--------------------------------- */
